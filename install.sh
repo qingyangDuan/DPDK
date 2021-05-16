@@ -1,4 +1,3 @@
-sudo apt-get install -y dpdk-igb-uio-dkms
-sudo modprobe igb_uio 
+./mlnxofedinstall --dpdk --upstream-libs
 
-./dpdk-setup.sh
+
